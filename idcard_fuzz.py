@@ -315,7 +315,6 @@ for i in range(0, 100):
 # 生成17位性别码
 
 
-#sfz = "61062119950****9*X"
 sfz=input('输入身份证号：')
 while not re.findall('^([0-9|\*]{0,17})([0-9]|X)$',sfz):
         sfz=input('重新输入身份证号：')

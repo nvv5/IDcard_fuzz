@@ -7,4 +7,4 @@ sfz爆破，通过有限获取的身份证信息进行枚举
 
 
 ## Demo
-![实例]()
+![实例](https://github.com/nws0507/IDcard_fuzz/blob/master/test.jpg)

@@ -366,7 +366,7 @@ for sfz_area in sfz_areas:
                 count = map(lambda x: int(x[0]) * x[1],
                             zip(sfz_gender, [7, 9, 10, 5, 8, 4, 2, 1, 6, 3, 7, 9, 10, 5, 8, 4, 2]))
                 k = sum(count) % 11
-                s = [1, 0, 'X', 9, 8, 7, 6, 5, 4, 3, 2][k]
+                s = ['1', '0', 'X', '9', '8', '7', '6', '5', '4', '3', '2'][k]
                 if sfz[-1] == s:
                     idcards.append(sfz_gender)
 for idcard in idcards:
